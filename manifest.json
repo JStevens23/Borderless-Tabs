@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Borderless Tabs",
+    "version": "1.0",
+    "description": "This extension opens the active tab in a new popup window with a minimal user interface.",
+    "permissions": ["tabs", "windows"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "128": "icon128.png"
+    }
+  }
